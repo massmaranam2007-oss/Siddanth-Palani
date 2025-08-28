@@ -12,7 +12,7 @@ cat readme.txt
 wc -l data.csv
 
 # 5. Find all files containing the word "error" in the "logs" folder
-grep -il error logs
+grep -rl error logs
 
 # 6. Display the last 10 lines of "app.log"
 tail -n10 app.log
